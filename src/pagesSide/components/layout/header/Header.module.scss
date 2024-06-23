@@ -1,0 +1,49 @@
+.Header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	background: var(--white);
+	padding-block: 10px;
+	border-bottom: 1px solid #e7e8ec;
+
+	.content {
+		position: relative;
+		display: flex;
+		gap: 20px;
+		justify-content: space-between;
+		align-items: center;
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			img {
+				width: 160px;
+				height: 23px;
+			}
+			//h1 {
+			//	font-size: clamp(16px, 5vw, 26px);
+			//	font-weight: 500;
+			//	text-transform: uppercase;
+			//	span {
+			//		color: var(--purple);
+			//	}
+			//}
+		}
+		.search {
+			width: 100%;
+			max-width: 800px;
+		}
+		.auth {
+			display: flex;
+			gap: 25px;
+			justify-content: center;
+			align-items: center;
+			a {
+				display: block;
+				padding: 15px 10px;
+			}
+		}
+	}
+}
