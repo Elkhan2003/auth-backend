@@ -7,7 +7,7 @@ const ResetPasswordPage = () => {
 	return (
 		<section className={scss.ResetPasswordPage}>
 			<div className="container">
-				<div className={scss.content}></div>
+				<div className={scss.content}>ResetPasswordPage</div>
 			</div>
 		</section>
 	);

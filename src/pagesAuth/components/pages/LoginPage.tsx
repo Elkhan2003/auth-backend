@@ -7,7 +7,7 @@ const LoginPage = () => {
 	return (
 		<section className={scss.LoginPage}>
 			<div className="container">
-				<div className={scss.content}></div>
+				<div className={scss.content}>LoginPage</div>
 			</div>
 		</section>
 	);

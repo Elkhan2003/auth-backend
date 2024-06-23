@@ -7,7 +7,7 @@ const ForgotPage = () => {
 	return (
 		<section className={scss.ForgotPage}>
 			<div className="container">
-				<div className={scss.content}></div>
+				<div className={scss.content}>ForgotPage</div>
 			</div>
 		</section>
 	);

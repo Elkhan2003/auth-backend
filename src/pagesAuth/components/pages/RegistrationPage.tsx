@@ -7,7 +7,7 @@ const RegistrationPage = () => {
 	return (
 		<section className={scss.RegistrationPage}>
 			<div className="container">
-				<div className={scss.content}></div>
+				<div className={scss.content}>RegistrationPage</div>
 			</div>
 		</section>
 	);
